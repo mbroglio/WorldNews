@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
+    android:layout_margin="4dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 <LinearLayout
@@ -13,7 +13,7 @@
     <!-- Media -->
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="194dp"
+        android:layout_height="140dp"
         app:srcCompat="@drawable/italy"
         android:scaleType="centerCrop"
         />
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Testo secondario"
+            android:text="Testo secondario che potrebbe anche andare su diverse righe"
             android:textAppearance="?attr/textAppearanceBodyMedium"
             android:textColor="?android:attr/textColorSecondary"
             />
